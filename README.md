@@ -63,5 +63,5 @@ m2=qplot(x=review_aroma,data = beer_reviews, binwidth=0.05)+scale_x_continuous(l
 m3=qplot(x=review_apperance,data = beer_reviews, binwidth=0.05)+scale_x_continuous(limits = c(1,5),breaks = seq(1,5,0.5))
 m3=qplot(x=review_appearance,data = beer_reviews, binwidth=0.05)+scale_x_continuous(limits = c(1,5),breaks = seq(1,5,0.5))
 m4=qplot(x=review_taste,data = beer_reviews, binwidth=0.05)+scale_x_continuous(limits = c(1,5),breaks = seq(1,5,0.5))
-m1=qplot(x=review_palate,data = beer_reviews, binwidth=0.05)+scale_x_continuous(limits = c(1,5),breaks = seq(1,5,0.5))
+m1=qplot(x=review_palette,data = beer_reviews, binwidth=0.05)+scale_x_continuous(limits = c(1,5),breaks = seq(1,5,0.5))
 grid.arrange(m1,m2,m3,m4,m5,ncol=2)
